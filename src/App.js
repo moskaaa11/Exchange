@@ -4,7 +4,7 @@ import CurrencyRow from './CurrencyRow';
 
 const BASE_URL = 'https://api.apilayer.com/exchangerates_data/latest'
 var myHeaders = new Headers();
-myHeaders.append("apikey", "mVjC94A64IQeTm6blWCNqt5jD5zedLxM");
+myHeaders.append("apikey", "oTcdXW4tQCd1rrJic4IzC6oiaUpLpHoX");
 
 var requestOptions = {
   method: 'GET',
@@ -20,6 +20,7 @@ const [toCurrency, setToCurrency] = useState()
 const [exchangeRate, setExchangeRate] = useState()
 const [amount, setAmount] = useState(1)
 const [amountInFromCurrency, setamountInFromCurrency] = useState(true)
+
 
 let toAmount, fromAmount
 
